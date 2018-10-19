@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# Name: checkUpTime.sh
 # Purpose:  look for machines that have not been restarted in X number of days.
 # Requirements:  cocoaDialog on the local machine
 # How To Use:  create a policy in your JSS with this script set to run once every day.
