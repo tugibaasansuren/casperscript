@@ -2,7 +2,6 @@
 
 # Name:  swapNetwork.sh
 # Purpose:  disable the wi-fi port when ethernet is plugged in
-# Original JAMF Nation post:  https://jamfnation.jamfsoftware.com/discussion.html?id=1441#respond
 # Credit to Jonathan Synowiec for help
 # Use in conjunction with a LaunchDaemon
 # Version: 2.0
