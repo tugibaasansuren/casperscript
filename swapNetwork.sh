@@ -3,8 +3,8 @@
 # Name:  swapNetwork.sh
 # Purpose:  disable the wi-fi port when ethernet is plugged in
 # Use in conjunction with a LaunchDaemon
-# Version: 2.0
-# Updated to check for jamf binary location due to OS X 10.11 changes
+# Version: 1.0
+# Updated to check for jamf binary location due to OS X 10.13 changes
 
 if [[ "$jamf_binary" == "" ]] && [[ -e "/usr/sbin/jamf" ]] && [[ ! -e "/usr/local/bin/jamf" ]]; then
    jamf_binary="/usr/sbin/jamf"
