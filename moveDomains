@@ -154,6 +154,8 @@ if [[ "$ENCRYPTIONEXTENTS" = "Yes" ]]; then
 
 fi
 
+
 ### Restart the computer
+
 
 shutdown -r now
