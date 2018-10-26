@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# NOTE: you may want to turn off logging (comment out 5 lines under #Globals & Loging) so that no passwords
+# NOTE: you may want to turn off logging (comment out 6 lines under #Globals & Loging) so that no passwords
 # are captured.
 
 # Globals & Logging
