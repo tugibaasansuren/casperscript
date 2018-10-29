@@ -32,8 +32,10 @@ if [[ "$ENCRYPTIONEXTENTS" = "Yes" ]]; then
 	fi
 fi
 
+
 # let the user know what we are doing
 #### Change the dialog to what you want to tell your users
+
 
 banner=`/Library/Application\ Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper -windowType hud -title "Moving Domains" -heading "Moving Domains Header" -description "We are moving your user account to the new authentication domain.  When we are completed, your computer will restart and you can use your new account inforation." -icon <PATH-TO-YOUR-ICON> -button1 "Proceed" -button2 "Not Now" -defaultButton 1 -cancelButton 2 -timeout 60 -countdown`
 
@@ -91,6 +93,7 @@ if [[ "$checkAD" != "$newAD" ]]; then
 	exit 99
 
 fi
+
 
 # reset permissions
 ### some of the code below is courtesy of Ben Toms (@macmule)
