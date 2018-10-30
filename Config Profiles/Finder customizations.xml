@@ -2,6 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1">
 	<dict>
+		
 		<key>PayloadUUID</key>
 		<string>482DFB74-3F17-4BA4-B105-D58EFEFFC953</string>
 		<key>PayloadType</key>
@@ -25,6 +26,7 @@
 		<key>PayloadContent</key>
 		<array>
 			<dict>
+				
 				<key>PayloadUUID</key>
 				<string>BEFD27A7-03A8-492B-87E4-F974D7933B03</string>
 				<key>PayloadType</key>
@@ -32,7 +34,7 @@
 				<key>PayloadOrganization</key>
 				<string>YourOrganization</string>
 				<key>PayloadIdentifier</key>
-				<string>BEFD27A7-03A8-492B-87E4-F974D7933B03</string‚è>
+				<string>BEFD27A7-03A8-492B-87E4-F974D7933B03</stringâ€šÃ¨>
 				<key>PayloadDisplayName</key>
 				<string>Media Access:  Finder Settings</string>
 				<key>PayloadDescription</key>
@@ -75,7 +77,7 @@
 				<string/>
 				<key>PayloadVersion</key>
 				<integer>1</integer>
-				<key>PayloadEnabled</k‡ey>
+				<key>PayloadEnabled</kÂâ€¡ey>
 				<true/>
 				<key>RestartDisabledWhileLoggedIn</key>
 				<false/>
