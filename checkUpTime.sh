@@ -69,11 +69,9 @@ if [ $loggedInUser != "root" ]; then
 				cdIcon="/private/var/inte/icons/ProblemReporter.icns"
 				cdText="Your computer has not been restarted in $num days.  Please restart ASAP.  Thank you."
 				bubble=`$CD bubble --title "$cdTitle" --no-timeout --text "$cdText" --icon-file $cdIcon`
-
 			fi
 		fi
 	fi
 fi
-
 
 exit 0
