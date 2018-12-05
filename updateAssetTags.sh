@@ -3,12 +3,8 @@
 # Purpose: used to read in asset tag data from a CSV file and update the record in the JSS
 # This script is written for updating a mobile device in the JSS but can be altered for a computer
 # by simply changing the <mobile_device> and </mobile_device> tags to <computer> and </computer>
-#
 # The CSV file needs to be saved as a UNIX file with LF, not CR
 # changed to taking name of CSV on command line: /path/to/updateAssetTags.sh /path/to/CSV.file
-#
-# A good portion of this script is re-purposed from the script posted in the following JAMF Nation article:
-#  https://jamfnation.jamfsoftware.com/discussion.html?id=13118#respond
 
 jssAPIUsername="<apiuser>"
 jssAPIPassword="<apipassword>"
