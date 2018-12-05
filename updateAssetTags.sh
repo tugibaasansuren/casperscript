@@ -4,7 +4,7 @@
 # This script is written for updating a mobile device in the JSS but can be altered for a computer
 # by simply changing the <mobile_device> and </mobile_device> tags to <computer> and </computer>
 # CSV file needs to be saved as a UNIX file with LF, not CR
-# changed to taking name of CSV on command line: /path/to/updateAssetTags.sh /path/to/CSV.file
+# Name of CSV on command line: /path/to/updateAssetTags.sh /path/to/CSV.file
 
 jssAPIUsername="<apiuser>"
 jssAPIPassword="<apipassword>"
