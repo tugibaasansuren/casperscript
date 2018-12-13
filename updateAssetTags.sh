@@ -49,7 +49,7 @@ do
 	if [[ $error != "" ]]; then
 		duplicates+=($serialnumber)
 	fi
-	#Increment the ID variable for the next user
+	#Increment ID variable for the next user
 	id=$((id+1))
 done
 
