@@ -1,8 +1,7 @@
 #!/bin/sh
 
 ###############################################################################
-# Purpose:  first boot script to run as part of imaging process to configure
-# systems.
+# Purpose:  first boot script to run as part of imaging process to configure systems.
 ###############################################################################
 
 ## Set global variables
