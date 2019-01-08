@@ -3,7 +3,6 @@
 ###############################################################################
 # Purpose:  first boot script to run as part of imaging process to configure
 # systems.
-# 
 ###############################################################################
 
 ## Set global variables
@@ -235,8 +234,8 @@ ${jamf_binary} policy -id 31
 /bin/date
 ${jamf_binary} policy -id 33
 
-## Office 2011
-/bin/echo "Installing Office 2011"
+## Office 2016
+/bin/echo "Installing Office 2016"
 /bin/date
 ${jamf_binary} policy -id 34
 
