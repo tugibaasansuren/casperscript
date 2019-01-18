@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Purpose:  disable the wi-fi port when ethernet is plugged in
+# Purpose: Disable the wi-fi port when ethernet is plugged in
 # Use in conjunction with a LaunchDaemon
 # Updated to check for jamf binary location due to OS X 10.13 changes
 
